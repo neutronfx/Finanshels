@@ -33,6 +33,8 @@ npm run build
 - `src/lib/analytics.ts` - tracking abstraction
 - `src/lib/validators.ts` - form validation schema
 - `src/config/contact.ts` - CTA contact placeholders
+- `TASK1_COMPONENTS.md` - brief component structure explanation (submission deliverable)
+- `TASK1_TRACKED_EVENTS.md` - tracked events list and trigger mapping (submission deliverable)
 
 ## Deployment
 Deployed on Vercel from repo root `app/`.
