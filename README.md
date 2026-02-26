@@ -35,4 +35,4 @@ npm run build
 - `src/config/contact.ts` - CTA contact placeholders
 
 ## Deployment
-Deploy on Vercel from repo root `app/`.
+Deployed on Vercel from repo root `app/`.
