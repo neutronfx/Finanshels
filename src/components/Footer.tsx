@@ -7,7 +7,7 @@ interface FooterProps {
 
 export const Footer = ({ whatsappHref, callHref, onWhatsAppClick, onCallClick }: FooterProps) => {
   return (
-    <footer className="site-footer" id="contact">
+    <footer className="site-footer reveal-on-scroll" data-reveal id="contact">
       <div className="footer-content">
         <h2>Need help closing your tax filing this week?</h2>
         <p>Reach out now and we will align on your filing checklist and submission timeline.</p>

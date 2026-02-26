@@ -15,14 +15,14 @@ const BENEFITS = [
 
 export const Benefits = () => {
   return (
-    <section className="section" id="benefits">
+    <section className="section reveal-on-scroll" data-reveal id="benefits">
       <div className="section-header">
         <p className="kicker">Why Businesses Choose Finanshels</p>
         <h2>Built for speed, accuracy, and peace of mind.</h2>
       </div>
       <div className="benefits-grid">
         {BENEFITS.map((item) => (
-          <article className="info-card" key={item.title}>
+          <article className="info-card reveal-on-scroll" data-reveal key={item.title}>
             <h3>{item.title}</h3>
             <p>{item.body}</p>
           </article>

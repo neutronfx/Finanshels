@@ -16,7 +16,7 @@ export const CTAInline = ({
   onLeadFormClick,
 }: CTAInlineProps) => {
   return (
-    <section className="section cta-inline">
+    <section className="section cta-inline reveal-on-scroll" data-reveal>
       <p>{label}</p>
       <div className="cta-inline-actions">
         <a className="btn btn-primary" href="#lead-form" onClick={onLeadFormClick}>

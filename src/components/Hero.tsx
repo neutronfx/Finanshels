@@ -121,7 +121,7 @@ export const Hero = ({
   }, [metricRun])
 
   return (
-    <section className="section hero" id="overview" ref={heroSectionRef}>
+    <section className="section hero reveal-on-scroll" data-reveal id="overview" ref={heroSectionRef}>
       <div className="hero-content">
         <p className="kicker">Corporate Tax Filing Services</p>
         <h1>Avoid Penalties and File with Confidence.</h1>
@@ -143,7 +143,7 @@ export const Hero = ({
       </div>
 
       <div className="hero-side">
-        <div className="hero-visual-wrap" aria-hidden="true">
+        <div className="hero-visual-wrap reveal-on-scroll" aria-hidden="true" data-reveal>
           <picture>
             <source srcSet={HERO_SLIDES[activeSlide].webpSrc} type="image/webp" />
             <img
@@ -173,14 +173,14 @@ export const Hero = ({
         </div>
 
         <div className="hero-metrics" aria-label="Service highlights">
-          <div className="metric-card">
+          <div className="metric-card reveal-on-scroll" data-reveal>
             <p className="metric-value">{hoursCount}h</p>
             <div className="metric-line">
               <span style={{ width: `${(hoursCount / 48) * 100}%` }} />
             </div>
             <p className="metric-label">Initial review turnaround</p>
           </div>
-          <div className="metric-card">
+          <div className="metric-card reveal-on-scroll" data-reveal>
             <div
               className="metric-circle"
               style={{
@@ -191,7 +191,7 @@ export const Hero = ({
             </div>
             <p className="metric-label">Document accuracy checks</p>
           </div>
-          <div className="metric-card">
+          <div className="metric-card reveal-on-scroll" data-reveal>
             <div className="metric-ratio-visual">
               <div className="metric-ratio-head">
                 <span>Client</span>
