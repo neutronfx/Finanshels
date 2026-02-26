@@ -10,23 +10,23 @@ interface HeroProps {
 
 const HERO_SLIDES = [
   {
-    webpSrc: '/hero-slider-01.webp',
-    pngSrc: '/hero-slider-01.png',
+    webpSrc: './hero-slider-01.webp',
+    pngSrc: './hero-slider-01.png',
     alt: 'Corporate tax filing dashboard with deadline tracking and compliance status indicators.',
   },
   {
-    webpSrc: '/hero-slider-02.webp',
-    pngSrc: '/hero-slider-02.png',
+    webpSrc: './hero-slider-02.webp',
+    pngSrc: './hero-slider-02.png',
     alt: 'Finance team reviewing tax filing checklist with document validation workflow.',
   },
   {
-    webpSrc: '/hero-slider-03.webp',
-    pngSrc: '/hero-slider-03.png',
+    webpSrc: './hero-slider-03.webp',
+    pngSrc: './hero-slider-03.png',
     alt: 'Tax advisory collaboration scene with filing timeline and regulatory alerts.',
   },
   {
-    webpSrc: '/hero-slider-04.webp',
-    pngSrc: '/hero-slider-04.png',
+    webpSrc: './hero-slider-04.webp',
+    pngSrc: './hero-slider-04.png',
     alt: 'Business owner receiving successful tax filing confirmation and compliance report.',
   },
 ]

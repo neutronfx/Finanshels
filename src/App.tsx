@@ -62,7 +62,7 @@ function App() {
               decoding="async"
               height={28}
               loading="eager"
-              src="/FinanshelsMainLogo.svg"
+              src="./FinanshelsMainLogo.svg"
             />
           </a>
           <nav aria-label="Primary navigation" className="top-nav">
